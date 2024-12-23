@@ -25,7 +25,7 @@
                 </li>
             </ul>
             <div class="cart-icon">
-                <a href="#cart"><i class="fas fa-shopping-cart"></i> Cart</a>
+                <a href="#cart" onclick="goToCart()">&#x1F6D2;</a>
             </div>
         </nav>
     </header>
@@ -49,7 +49,7 @@
         <button type="button" onclick="filterProducts('accessories')">Accessories</button>
         <button type="button" onclick="filterProducts('beauty-products')">Beauty</button>
         <button type="button" onclick="filterProducts('home-furniture')">Furniture</button>
-        <button type="button" onclick="filterProducts('sports-sports-fitness')">Sports</button>
+        <button type="button" onclick="filterProducts('sports-fitness')">Sports</button>
     </section>
 
     <section>
@@ -58,318 +58,253 @@
 
             <div id="products">
 
+                <div id="product-details" style="display: none;">
+                    <h2>Top Companies</h2>
+                    <div id="companies-list"></div><br>
+                    <button onclick="closeDetails()" style="padding: 10px 705px; margin-left: 10px; background-color: red; font-size: 20px;">Close</button>
+                </div>
+
                 <h2>Electronics Store</h2>
                 
-                <div class="product" data-category="electronics" data-price="79999">
+                <div class="product" data-category="electronics">
                     <img src="img/Laptop1.jpg" alt="Laptop Image">
                     <h3>Laptop</h3>
-                    <p>Price: ₹79,999</p>
-                    <p>Rating: 4.5/5</p>
-                    <button onclick="addToCart('Laptop', 79999)" class="addtocart">Add to Cart</button>
+                    <button onclick="showmore('Laptop')" class="Show-More">Show More</button>
                 </div>
-
-                <div class="product" data-category="electronics" data-price="49999">
+                
+                <div class="product" data-category="electronics">
                     <img src="img/mobile.jpg" alt="">
                     <h3>Smartphone</h3>
-                    <p>Price: ₹49,999</p>
-                    <p>Rating: 4.8/5</p>
-                    <button onclick="addToCart('Smartphone',49999)" class="addtocart">Add to Cart</button>
+                    <button onclick="showmore('Smartphone')" class="Show-More">Show More</button>
                 </div>
-
-                <div class="product" data-category="electronics" data-price="89999">
+                
+                <div class="product" data-category="electronics">
                     <img src="img/Tv.webp" alt="">
                     <h3>Television</h3>
-                    <p>Price: ₹89,999</p>
-                    <p>Rating: 4.7/5</p>
-                    <button onclick="addToCart('Television',89999)" class="addtocart">Add to Cart</button>
+                    <button onclick="showmore('Television')" class="Show-More">Show More</button>
                 </div>
-
-                <div class="product" data-category="electronics" data-price="69999">
+                
+                <div class="product" data-category="electronics">
                     <img src="img/speakers.jpg" alt="">
                     <h3>Speakers</h3>
-                    <p>Price: ₹69,999</p>
-                    <p>Rating: 4.6/5</p>
-                    <button onclick="addToCart('Speakers',69999)" class="addtocart">Add to Cart</button>
+                    <button onclick="showmore('Speakers')" class="Show-More">Show More</button>
                 </div>
-
-                <div class="product" data-category="electronics" data-price="79999">
+                
+                <div class="product" data-category="electronics">
                     <img src="img/video-game.jpg" alt="">
                     <h3>Video-Game Console</h3>
-                    <p>Price: ₹79,999</p>
-                    <p>Rating: 4.9/5</p>
-                    <button onclick="addToCart('Video-Game Console',79999)" class="addtocart">Add to Cart</button>
+                    <button onclick="showmore('Video_Game_Console')" class="Show-More">Show More</button>
                 </div>
-
-                <div class="product" data-category="electronics" data-price="59999">
+                
+                <div class="product" data-category="electronics">
                     <img src="img/printer.jpg" alt="">
                     <h3>Printer</h3>
-                    <p>Price: ₹59,999</p>
-                    <p>Rating: 4.4/5</p>
-                    <button onclick="addToCart('Printer',59999)" class="addtocart">Add to Cart</button>
-                </div>
+                    <button onclick="showmore('Printer')" class="Show-More">Show More</button>
+                </div>                
         </div>
 
         <div class="category">
 
             <h2>Clothing & Fashion Store</h2>
-
-            <div class="product" data-category="clothing" data-price="1999">
+            
+            <div class="product" data-category="clothing">
                 <img src="img/t-shirt.jpg" alt="">
                 <h3>T-Shirt</h3>
-                <p>Price: ₹1,999</p>
-                <p>Rating: 4.3/5</p>
-                <button>Add to Cart</button>
+                <button onclick="showmore('T_Shirt')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="clothing" data-price="3999">
+            
+            <div class="product" data-category="clothing">
                 <img src="img/pants.webp" alt="">
                 <h3>Pants</h3>
-                <p>Price: ₹3,999</p>
-                <p>Rating: 4.5/5</p>
-                <button>Add to Cart</button>
+                <button onclick="showmore('Pants')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="clothing" data-price="3999">
+            
+            <div class="product" data-category="clothing">
                 <img src="img/shirt.webp" alt="">
                 <h3>Shirt</h3>
-                <p>Price: ₹3,999</p>
-                <p>Rating: 4.4/5</p>
-                <button>Add to Cart</button>
+                <button onclick="showmore('Shirt')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="clothing" data-price="3999">
+            
+            <div class="product" data-category="clothing">
                 <img src="img/jackets.jpg" alt="">
                 <h3>Jacket</h3>
-                <p>Price: ₹3,999</p>
-                <p>Rating: 4.6/5</p>
-                <button>Add to Cart</button>
+                <button onclick="showmore('Jacket')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="clothing" data-price="3999">
+            
+            <div class="product" data-category="clothing">
                 <img src="img/suits.jpg" alt="">
                 <h3>Suits</h3>
-                <p>Price: ₹3,999</p>
-                <p>Rating: 4.7/5</p>
-                <button>Add to Cart</button>
+                <button onclick="showmore('Suits')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="clothing" data-price="3999">
-                <img src="img/sweater.jpg" alt="">
-                <h3>Sweater</                <p>Price: ₹3,999</p>
-                <p>Rating: 4.5/5</p>
-                <button>Add to Cart</button>
-            </div>
+            
+            <div class="product" data-category="clothing">
+                <img src="img/sweater.jpg" alt="Sweater">
+                <h3>Sweater</h3>
+                <button onclick="showmore('Sweater')" class="Show-More">Show More</button>
+            </div>                      
         </div>
 
         <div class="category">
 
             <h2>Accessories</h2>
-
-            <div class="product" data-category="accessories" data-price="11999">
+            
+            <div class="product" data-category="accessories">
                 <img src="img/headphones.jpg" alt="">
                 <h3>Headphone</h3>
-                <p>Price: ₹11,999</p>
-                <p>Rating: 4.8/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Headphone')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="accessories" data-price="6399">
+            
+            <div class="product" data-category="accessories">
                 <img src="img/watch.jpg" alt="">
                 <h3>Watch</h3>
-                <p>Price: ₹6,399</p>
-                <p>Rating: 4.6/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Watch')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="accessories" data-price="6399">
+            
+            <div class="product" data-category="accessories">
                 <img src="img/glasses.jpg" alt="">
                 <h3>Glasses</h3>
-                <p>Price: ₹6,399</p>
-                <p>Rating: 4.5/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Glasses')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="accessories" data-price="6399">
+            
+            <div class="product" data-category="accessories">
                 <img src="img/shoes.jpg" alt="">
                 <h3>Shoes</h3>
-                <p>Price: ₹6,399</p>
-                <p>Rating: 4.7/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Shoes')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="accessories" data-price="6399">
+            
+            <div class="product" data-category="accessories">
                 <img src="img/belts.webp" alt="">
                 <h3>Belts</h3>
-                <p>Price: ₹6,399</p>
-                <p>Rating: 4.4/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Belts')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="accessories" data-price="6399">
+            
+            <div class="product" data-category="accessories">
                 <img src="img/wallets.jpg" alt="">
                 <h3>Wallet</h3>
-                <p>Price: ₹6,399</p>
-                <p>Rating: 4.5/5</p>
-                <button>Add To Cart</button>
-            </div>
+                <button onclick="showmore('Wallet')" class="Show-More">Show More</button>
+            </div>                     
         </div>
 
         <div class="category">
 
             <h2>Health & Beauty</h2>
-
-            <div class="product" data-category="health" data-price="1599">
+            
+            <div class="product" data-category="beauty-products">
                 <img src="img/face-cream.webp" alt="Skincare Products">
                 <h3>Face Cream</h3>
-                <p>Price: ₹1,599</p>
-                <p>Rating: 4.4/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Face_Cream')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="health" data-price="1999">
+            
+            <div class="product" data-category="beauty-products">
                 <img src="img/lipstick.jpg" alt="Makeup Products">
                 <h3>Lipstick</h3>
-                <p>Price: ₹1,999</p>
-                <p>Rating: 4.5/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Lipstick')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="health" data-price="2499">
+            
+            <div class="product" data-category="beauty-products">
                 <img src="img/shampoo.webp" alt="Haircare Products">
                 <h3>Shampoo</h3>
-                <p>Price: ₹2,499</p>
-                <p>Rating: 4.6/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Shampoo')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="health" data-price="2999">
+            
+            <div class="product" data-category="beauty-products">
                 <img src="img/perfume.webp" alt="Perfume Products">
                 <h3>Perfume</h3>
-                <p>Price: ₹2,999</p>
-                <p>Rating: 4.7/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Perfume')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="health" data-price="3499">
+            
+            <div class="product" data-category="beauty-products">
                 <img src="img/nailcare.webp" alt="Nailcare Products">
                 <h3>Nail Polish</h3>
-                <p>Price: ₹3,499</p>
-                <p>Rating: 4.5/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Nail_Polish')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="health" data-price="3999">
+            
+            <div class="product" data-category="beauty-products">
                 <img src="img/Moisturizer.jpg" alt="Skincare Products">
                 <h3>Moisturizer</h3>
-                <p>Price: ₹3,999</p>
-                <p>Rating: 4.6/5</p>
-                <button>Add To Cart</button>
-            </div>
+                <button onclick="showmore('Moisturizer')" class="Show-More">Show More</button>
+            </div>                        
         </div>
 
         <div class="category">
 
             <h2>Home & Furniture</h2>
-
-            <div class="product" data-category="home" data-price="100">
+            
+            <div class="product" data-category="home-furniture">
                 <img src="img/Sofa.webp" alt="Furniture Products">
                 <h3>Sofa</h3>
-                <p>Price: ₹8,000</p>
-                <p>Rating: 4.3/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Sofa')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="home" data-price="150">
+            
+            <div class="product" data-category="home-furniture">
                 <img src="img/Coffee Table.jpg" alt="Decor Products">
                 <h3>Coffee Table</h3>
-                <p>Price: ₹9,600</p>
-                <p>Rating: 4.4/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Coffee_Table')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="home" data-price="200">
+            
+            <div class="product" data-category="home-furniture">
                 <img src="img/Chair.jpg" alt="Furniture Products">
                 <h3>Chair</h3>
-                <p>Price: ₹16,000</p>
-                <p>Rating: 4.5/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Chair')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="home" data-price="250">
+            
+            <div class="product" data-category="home-furniture">
                 <img src="img/Bookshelf.webp" alt="Decor Products">
                 <h3>Bookshelf</h3>
-                <p>Price: ₹20,000</p>
-                <p>Rating: 4.6/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Bookshelf')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="home" data-price="300">
+            
+            <div class="product" data-category="home-furniture">
                 <img src="img/Bed.jpg" alt="Furniture Products">
                 <h3>Bed</h3>
-                <p>Price: ₹24,000</p>
-                <p>Rating: 4.7/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Bed')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="home" data-price="350">
+            
+            <div class="product" data-category="home-furniture">
                 <img src="img/Desk.jpg" alt="Decor Products">
                 <h3>Desk</h3>
-                <p>Price: ₹28,000</p>
-                <p>Rating: 4.8/5</p>
-                <button>Add To Cart</button>
-            </div>
+                <button onclick="showmore('Desk')" class="Show-More">Show More</button>
+            </div>            
         </div>
 
         <div class="category">
 
             <h2>Sports & Fitness</h2>
-
-            <div class="product" data-category="sports" data-price="50">
+            
+            <div class="product" data-category="sports-fitness">
                 <img src="img/Yoga Mat.jpg" alt="Fitness Products">
                 <h3>Yoga Mat</h3>
-                <p>Price: ₹2,400</p>
-                <p>Rating: 4.2/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Yoga_Mat')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="sports" data-price="100">
+            
+            <div class="product" data-category="sports-fitness">
                 <img src="img/Dumbbells Set.jpg" alt="Sports Products">
                 <h3>Dumbbells Set</h3>
-                <p>Price: ₹4,800</p>
-                <p>Rating: 4.3/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Dumbbells_Set')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="sports" data-price="150">
+            
+            <div class="product" data-category="sports-fitness">
                 <img src="img/Bicycle.jpg" alt="Bike Products">
                 <h3>Bicycle</h3>
-                <p>Price: ₹12,000</p>
-                <p>Rating: 4.4/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Bicycle')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="sports" data-price="200">
+            
+            <div class="product" data-category="sports-fitness">
                 <img src="img/Home Gym Set.jpg" alt="Gym Products">
                 <h3>Home Gym Set</h3>
-                <p>Price: ₹16,000</p>
-                <p>Rating: 4.5/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Home_Gym_Set')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="sports" data-price="250">
+            
+            <div class="product" data-category="sports-fitness">
                 <img src="img/Surfboard.jpg" alt="Surfboard Products">
                 <h3>Surfboard</h3>
-                <p>Price: ₹20,000</p>
-                <p>Rating: 4.6/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Surfboard')" class="Show-More">Show More</button>
             </div>
-
-            <div class="product" data-category="sports" data-price="300">
+            
+            <div class="product" data-category="sports-fitness">
                 <img src="img/Kayak.webp" alt="Kayak Products">
                 <h3>Kayak</h3>
-                <p>Price: ₹24,000</p>
-                <p>Rating: 4.7/5</p>
-                <button>Add To Cart</button>
+                <button onclick="showmore('Kayak')" class="Show-More">Show More</button>
             </div>
         </div>
         
@@ -423,14 +358,6 @@
                 <p><strong>Hours:</strong> Monday - Friday: 9am - 6pm EST</p>
             </div>
         </div>
-    </section>
-
-    <section class="cart">
-
-        <h2>Your Cart</h2>
-        <divitems"></div>
-        <h3>Total: $<spantotal">0</span></h3>
-
     </section>
 
     <script src="script.js"></script>
