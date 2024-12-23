@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const itemDiv = document.createElement('div');
             itemDiv.textContent = `${item.name} - ₹${item.price.toLocaleString()} x ${item.quantity}`;
             cartItems.appendChild(itemDiv);
-            total += item.price * item.quantity; // Multiply price by quantity
+            total += item.price * item.quantity; 
         });
 
         cartTotal.textContent = `₹${total.toLocaleString()}`; 
@@ -234,198 +234,198 @@ const companyData = {
     ],
 
     Jacket: [
-        { name: "The North Face", logo: ""},
-        { name: "Patagonia", logo: ""},
-        { name: "Columbia Sportswear", logo: ""},
-        { name: "Arc'teryx", logo: ""},
-        { name: "Canada Goose", logo: ""},
-        { name: "Moncler", logo: ""},
-        { name: "Uniqlo", logo: ""},
-        { name: "Marmot", logo: ""},
-        { name: "Helly Hansen", logo: ""},
-        { name: "Burberry", logo: ""}
+        { name: "The North Face", logo: "https://storagemedia.corporategear.com/betastoragemedia/1/brand/logo_43_5.png"},
+        { name: "Patagonia", logo: "https://external-preview.redd.it/kdcPkJCYUt-YF1m2LrOgYiphfB6IQE7xfRg410nEqhM.jpg?auto=webp&s=bb7084b589c2bb79fcf105da5405313dc1497500"},
+        { name: "Columbia Sportswear", logo: "https://th.bing.com/th/id/OIP.cA7cR9yT44HjqAPQR4Yy2gHaE8?rs=1&pid=ImgDetMain"},
+        { name: "Arc'teryx", logo: "https://logowik.com/content/uploads/images/arc-teryx1317.jpg"},
+        { name: "Canada Goose", logo: "https://th.bing.com/th/id/OIP.3eEfuzGVUv3euAx58PBhaQAAAA?rs=1&pid=ImgDetMain"},
+        { name: "Moncler", logo: "https://logos-world.net/wp-content/uploads/2022/01/Moncler-Logo.png"},
+        { name: "Uniqlo", logo: "https://cdn.freebiesupply.com/logos/thumbs/2x/uniqlo-1-logo.png"},
+        { name: "Marmot", logo: "https://www.hortonshaberdashery.com/uploads/1/2/4/3/124366927/marmot-logo_orig.png"},
+        { name: "Helly Hansen", logo: "https://logos-world.net/wp-content/uploads/2020/12/Helly-Hansen-Symbol.png"},
+        { name: "Burberry", logo: "https://th.bing.com/th/id/R.b267221714fa5c2e65e97af4aa9513fc?rik=WPhygKe66AYLvA&riu=http%3a%2f%2ftous-logos.com%2fwp-content%2fuploads%2f2018%2f07%2fBurberry-logo.png&ehk=tITRhWhBK%2f2AtKKE%2b9pk1zQgeLPO%2f%2bHBgeoQKkVZoRc%3d&risl=&pid=ImgRaw&r=0"}
     ],
 
     Suits: [
-        { name: "Brioni", logo: ""},
-        { name: "Savile Row", logo: ""},
-        { name: "Tom Ford", logo: ""},
-        { name: "Armani", logo: ""},
-        { name: "Zegna", logo: ""},
-        { name: "Canali", logo: ""},
-        { name: "Kiton", logo: ""},
-        { name: "Hugo Boss", logo: ""},
-        { name: "Ralph Lauren Purple Label", logo: ""},
-        { name: "Corneliani", logo: ""}
+        { name: "Brioni", logo: "https://firstoptiker.at/images/Logo_Brioni.PNG"},
+        { name: "Savile Row", logo: "https://topexclusiveoffers.com/wp-content/uploads/2019/10/Untitled-design-43-1.png"},
+        { name: "Tom Ford", logo: "https://th.bing.com/th/id/OIP.WD7E07yuOnkNC1OuEcT0QgHaHa?rs=1&pid=ImgDetMain"},
+        { name: "Armani", logo: "https://tse4.mm.bing.net/th?id=OIP.Uk3Yf7C5gVI0SzeMq234ogHaEK&w=200&h=112&c=7"},
+        { name: "Zegna", logo: "https://www.onecentralmall.com.mo/wordpress/wp-content/uploads/2015/10/Zegna-Logotype-CMYK1.jpg"},
+        { name: "Canali", logo: "https://logos-download.com/wp-content/uploads/2016/03/Canali_logo_logotype_emblem.png"},
+        { name: "Kiton", logo: "https://www.logo9.net/userfiles/images/9KITON.jpg"},
+        { name: "Hugo Boss", logo: "https://th.bing.com/th/id/R.5a36648aa816e664e77d2c4dab71f908?rik=JEHYATR45WXKww&riu=http%3a%2f%2f3.bp.blogspot.com%2f-DHlp6IiFmRs%2fVVAuzHLBVGI%2fAAAAAAAACVs%2fc6kLNSxCOiE%2fs1600%2fHugo-boss-logo-vector.png&ehk=ebLE6UDCyslAIu5B4ptiXjkjHOv0xYPOavpl%2bYo3dCU%3d&risl=&pid=ImgRaw&r=0"},
+        { name: "Ralph Lauren", logo: "https://tse3.mm.bing.net/th?id=OIP.J6YUexRdCcK-I-cHrX3QzAHaEK&w=200&h=112&c=7"},
+        { name: "Corneliani", logo: "https://www.liblogo.com/img-logo/co6081cebe-corneliani-logo-corneliani.png"}
     ],
 
     Sweater: [
-        { name: "Loro Piana", logo: ""},
-        { name: "The Elder Statesman", logo: ""},
-        { name: "Prada", logo: ""},
-        { name: "Chanel", logo: ""},
-        { name: "Burberry", logo: ""},
-        { name: "Ralph Lauren", logo: ""},
-        { name: "John Smedley", logo: ""},
-        { name: "BOSS (Hugo Boss)", logo: ""},
-        { name: "Armani", logo: ""},
-        { name: "Uniqlo", logo: ""}
+        { name: "Loro Piana", logo: "https://brandpalettes.com/wp-content/uploads/2022/11/Loro-Piana-Logo-JPG.jpg"},
+        { name: "The Elder Statesman", logo: "https://cdn.shopify.com/s/files/1/0446/7490/8327/files/TES_LOGO_REGULAR_black.png?height=628&pad_color=fff&v=1598482295&width=1200"},
+        { name: "Prada", logo: "https://logosmarcas.net/wp-content/uploads/2020/05/Prada-Logo.png"},
+        { name: "Chanel", logo: "https://logos-world.net/wp-content/uploads/2020/04/Chanel-Logo.png"},
+        { name: "Burberry", logo: "https://th.bing.com/th/id/R.b267221714fa5c2e65e97af4aa9513fc?rik=WPhygKe66AYLvA&riu=http%3a%2f%2ftous-logos.com%2fwp-content%2fuploads%2f2018%2f07%2fBurberry-logo.png&ehk=tITRhWhBK%2f2AtKKE%2b9pk1zQgeLPO%2f%2bHBgeoQKkVZoRc%3d&risl=&pid=ImgRaw&r=0"},
+        { name: "Ralph Lauren", logo: "https://tse3.mm.bing.net/th?id=OIP.J6YUexRdCcK-I-cHrX3QzAHaEK&w=200&h=112&c=7"},
+        { name: "John Smedley", logo: "https://parigot.itembox.design/item/images/brand/johnsmedley.jpg"},
+        { name: "BOSS (Hugo Boss)", logo: "https://th.bing.com/th/id/R.5a36648aa816e664e77d2c4dab71f908?rik=JEHYATR45WXKww&riu=http%3a%2f%2f3.bp.blogspot.com%2f-DHlp6IiFmRs%2fVVAuzHLBVGI%2fAAAAAAAACVs%2fc6kLNSxCOiE%2fs1600%2fHugo-boss-logo-vector.png&ehk=ebLE6UDCyslAIu5B4ptiXjkjHOv0xYPOavpl%2bYo3dCU%3d&risl=&pid=ImgRaw&r=0"},
+        { name: "Armani", logo: "https://tse4.mm.bing.net/th?id=OIP.Uk3Yf7C5gVI0SzeMq234ogHaEK&w=200&h=112&c=7"},
+        { name: "Uniqlo", logo: "https://cdn.freebiesupply.com/logos/thumbs/2x/uniqlo-1-logo.png"}
     ],
 
     Headphone: [
-        { name: "Sony", logo: ""},
-        { name: "Bose", logo: ""},
-        { name: "Sennheiser", logo: ""},
-        { name: "Apple", logo: ""},
-        { name: "Bang & Olufsen", logo: ""},
-        { name: "JBL", logo: ""},
-        { name: "Audio-Technica", logo: ""},
-        { name: "Shure", logo: ""},
-        { name: "boAt", logo: ""},
-        { name: "Zebronics", logo: ""}
+        { name: "Sony", logo: "https://cdn.specpick.com/images/photonics/products/df7ceddb-a-21_209_imx253mzr_myr_big.PNG"},
+        { name: "Bose", logo: "https://pluspng.com/img-png/bose-png--522.png"},
+        { name: "Sennheiser", logo: "https://logos-world.net/wp-content/uploads/2020/12/Sennheiser-Logo-1982-2017-700x394.png"},
+        { name: "Apple", logo: "https://th.bing.com/th/id/OIP._-PHuJMA9l7DqLNvDhH0RwHaHa?w=512&h=512&rs=1&pid=ImgDetMain"},
+        { name: "Bang & Olufsen", logo: "https://www.carolinegibson.co.uk/wp-content/uploads/2021/04/bang-olufsen.png"},
+        { name: "JBL", logo: "https://logos-world.net/wp-content/uploads/2020/12/JBL-Emblem.png"},
+        { name: "Audio-Technica", logo: "https://cdn.dribbble.com/users/173981/screenshots/14161230/stry-21-08-2020_4x.jpg"},
+        { name: "Shure", logo: "https://th.bing.com/th/id/R.252df73324303b48ca7635742e1730c3?rik=40SYGfXPyC3y8A&riu=http%3a%2f%2flogotypes101.com%2flogos%2f367%2f7A583F17C4424D50C5A48A81D3DF04CF%2fShure.png&ehk=Smk95uDTa4whDlX5DN144P9IehUqaFualcFTqwUnP0w%3d&risl=&pid=ImgRaw&r=0"},
+        { name: "boAt", logo: "https://static.startuptalky.com/2023/01/boAt-logo-startuptalky.jpg"},
+        { name: "Zebronics", logo: "https://www.freedomcart.com/image/cache/catalog/data/brands/zebronics-logo-600x315.jpg"}
     ],
 
     Watch: [
-        { name: "Titan", logo: ""},
-        { name: "Rolex", logo: ""},
-        { name: "Fossil", logo: ""},
-        { name: "Helios", logo: ""},
-        { name: "Omega", logo: ""},
-        { name: "Panerai", logo: ""},
-        { name: "Hublot", logo: ""},
-        { name: "Breitling", logo: ""},
-        { name: "Patek Philippe", logo: ""},
-        { name: "Casio", logo: ""}
+        { name: "Titan", logo: "https://upload.wikimedia.org/wikipedia/commons/8/83/Titan_Company_Logo.png"},
+        { name: "Rolex", logo: "https://wallpaperaccess.com/full/881446.jpg"},
+        { name: "Fossil", logo: "https://brandslogos.com/wp-content/uploads/images/large/fossil-logo-black-and-white.png"},
+        { name: "Helios", logo: "https://th.bing.com/th/id/OIP.ZjYeDb0KygImrC9BteaaaAHaHa?rs=1&pid=ImgDetMain"},
+        { name: "Omega", logo: "https://th.bing.com/th/id/OIP.BkWgUR7bQvWhsoGbwcqEEAHaFj?rs=1&pid=ImgDetMain"},
+        { name: "Panerai", logo: "https://th.bing.com/th/id/OIP.mR--kFmVpCanxdkWOu3IIwHaHa?rs=1&pid=ImgDetMain"},
+        { name: "Hublot", logo: "https://logo-all.ru/uploads/posts/2018-07/0_hublot_logo.jpg"},
+        { name: "Breitling", logo: "https://freepngdesign.com/content/uploads/images/p-2835-4-breitling-watches-logo-png-transparent-logo-290761404489.png"},
+        { name: "Patek Philippe", logo: "https://logos-download.com/wp-content/uploads/2016/06/Patek_Philippe_Geneve_logo.png"},
+        { name: "Casio", logo: "https://th.bing.com/th/id/R.f761cea9231eb933f392ae8d6eee693f?rik=4AAvmFfSFaKanQ&riu=http%3a%2f%2fvignette2.wikia.nocookie.net%2flogopedia%2fimages%2fd%2fdb%2fCasio.png%2frevision%2flatest%3fcb%3d20120828100224&ehk=R5e%2bHhSLn2rsfEeljGXBoMeY9S%2bEjoU8QOsOrWL%2bZRY%3d&risl=&pid=ImgRaw&r=0"}
     ],
 
     Glasses: [
-        { name: "Luxottica", logo: ""},
-        { name: "Ray-Ban", logo: ""},
-        { name: "Oakley", logo: ""},
-        { name: "Essilor", logo: ""},
-        { name: "Vincent Chase", logo: ""},
-        { name: "Prada", logo: ""},
-        { name: "Warby Parker", logo: ""},
-        { name: "Maui Jim", logo: ""},
-        { name: "Silhouette", logo: ""},
-        { name: "Gucci", logo: ""}
+        { name: "Luxottica", logo: "https://logodix.com/logo/2039606.png"},
+        { name: "Ray-Ban", logo: "https://www.kindpng.com/picc/m/38-382738_ray-ban-logo-png-transparent-png.png"},
+        { name: "Oakley", logo: "https://th.bing.com/th/id/R.999b7a207f9a7c5ecada63dcbd7f7c1e?rik=7sRLLDo0gKxirg&riu=http%3a%2f%2fcdn.cybergolf.com%2fimages%2f240%2foakley-logo.png&ehk=dHBat90w1VpaXrSBFvVZgRwkgnPiXfagpfI6RIf%2b%2bOQ%3d&risl=&pid=ImgRaw&r=0"},
+        { name: "Essilor", logo: "https://www.optiknow.ca/wp-content/uploads/2023/07/Essilor-logo-2023-810-x-338-768x320.jpg"},
+        { name: "Vincent Chase", logo: "https://static1.lenskart.com/media/desktop/img/Nov20/25-Nov/app-One_19.jpg"},
+        { name: "Prada", logo: "https://logosmarcas.net/wp-content/uploads/2020/05/Prada-Logo.png"},
+        { name: "Warby Parker", logo: "https://logodix.com/logo/876434.png"},
+        { name: "Maui Jim", logo: "https://clipground.com/images/maui-jim-logo-2.jpg"},
+        { name: "Silhouette", logo: "https://logodownload.org/wp-content/uploads/2021/10/silhouette-logo-0.png"},
+        { name: "Gucci", logo: "https://tse1.mm.bing.net/th?id=OIP.RH0M45IErwpiptUWO9e-cgHaHa&w=200&h=200&c=7"}
     ],
 
     Shoes: [
-        { name: "Nike", logo: ""},
-        { name: "Adidas", logo: ""},
-        { name: "Puma", logo: ""},
-        { name: "New Balance", logo: ""},
-        { name: "Reebok", logo: ""},
-        { name: "Vans", logo: ""},
-        { name: "Under Armour", logo: ""},
-        { name: "Skechers", logo: ""},
-        { name: "Bata", logo: ""},
-        { name: "Liberty Shoes", logo: ""}
+        { name: "Nike", logo: "https://logos-world.net/wp-content/uploads/2020/04/Nike-Logo-1978-present.jpg"},
+        { name: "Adidas", logo: "https://logos-world.net/wp-content/uploads/2020/04/Adidas-Logo.png"},
+        { name: "Puma", logo: "https://th.bing.com/th/id/OIP.TeMTJguw9UaLtLw991JbAwAAAA?w=400&h=400&rs=1&pid=ImgDetMain"},
+        { name: "New Balance", logo: "https://logos-world.net/wp-content/uploads/2020/09/New-Balance-Logo-2006-2008.png"},
+        { name: "Reebok", logo: "https://logodownload.org/wp-content/uploads/2017/06/reebok-logo-0-2048x2048.png"},
+        { name: "Vans", logo: "https://th.bing.com/th/id/OIP.eUV0w-TxPQPUxi1-jtdOqwAAAA?rs=1&pid=ImgDetMain"},
+        { name: "Under Armour", logo: "https://th.bing.com/th/id/OIP.oH49PU_LU4j-ZLXtM2FF7AHaE8?rs=1&pid=ImgDetMain"},
+        { name: "Skechers", logo: "https://www.dealerservicecenter.in/assets/company_logo/skechers.jpeg"},
+        { name: "Bata", logo: "https://th.bing.com/th/id/R.99de02c079c0fea4a90f6049e464f70d?rik=L7PZ6LasSBqsxQ&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fthumb%2f3%2f3e%2fBata.svg%2f220px-Bata.svg.png&ehk=DCsow37GwF72Gj4LJse7hcQipp1dKsgOKPOWMfaMLLg%3d&risl=&pid=ImgRaw&r=0"},
+        { name: "Liberty Shoes", logo: "https://image3.mouthshut.com/images/imagesp/925793843s.jpg"}
     ],
 
     Belts: [
-        { name: "Gucci", logo: ""},
-        { name: "Louis Vuitton", logo: ""},
-        { name: "Hermes", logo: ""},
-        { name: "Prada", logo: ""},
-        { name: "Dunhill", logo: ""},
-        { name: "Tommy Hilfiger", logo: ""},
-        { name: "Ferragamo", logo: ""},
-        { name: "Coach", logo: ""},
-        { name: "Hidesign", logo: ""},
-        { name: "Wildcraft", logo: ""}
+        { name: "Gucci", logo: "https://tse1.mm.bing.net/th?id=OIP.RH0M45IErwpiptUWO9e-cgHaHa&w=200&h=200&c=7"},
+        { name: "Louis Vuitton", logo: "https://logo-marque.com/wp-content/uploads/2020/04/Louis-Vuitton-Embl%C3%A8me.jpg"},
+        { name: "Hermes", logo: "https://logos-world.net/wp-content/uploads/2020/12/Hermes-Logo.png"},
+        { name: "Prada", logo: "https://logosmarcas.net/wp-content/uploads/2020/05/Prada-Logo.png"},
+        { name: "Dunhill", logo: "https://th.bing.com/th/id/OIP.mcHmzbfJXxfeOzA8O5nCWQAAAA?rs=1&pid=ImgDetMain"},
+        { name: "Tommy Hilfiger", logo: "https://tse1.mm.bing.net/th?id=OIP.ZI8OKCbsmuCR-FtlNy8wuQHaEK&w=200&h=112&c=7"},
+        { name: "Ferragamo", logo: "https://www.liblogo.com/img-logo/sa3605feb3-salvatore-ferragamo-logo-ferragamo-symbol-svg-download-ferragamo-symbol-vector-file.png"},
+        { name: "Coach", logo: "https://logowik.com/content/uploads/images/coach2854.jpg"},
+        { name: "Hidesign", logo: "https://cdn.shopify.com/s/files/1/0416/3049/8971/files/Hidesign_logo-svg_0ca39a53-a205-493a-979f-3aa899307479.png?v=1625045539"},
+        { name: "Wildcraft", logo: "https://www.logolynx.com/images/logolynx/8f/8f738436eaa9f43b5e7bc75a782d743a.jpeg"}
     ],
 
     Wallet: [
-        { name: "Louis Vuitton", logo: ""},
-        { name: "Gucci", logo: ""},
-        { name: "Prada", logo: ""},
-        { name: "Hermès", logo: ""},
-        { name: "Ralph Lauren", logo: ""},
-        { name: "Montblanc", logo: ""},
-        { name: "Tumi", logo: ""},
-        { name: "Coach", logo: ""},
-        { name: "Hidesign", logo: ""},
-        { name: "Baggit", logo: ""}
+        { name: "Louis Vuitton", logo: "https://logo-marque.com/wp-content/uploads/2020/04/Louis-Vuitton-Embl%C3%A8me.jpg"},
+        { name: "Gucci", logo: "https://tse1.mm.bing.net/th?id=OIP.RH0M45IErwpiptUWO9e-cgHaHa&w=200&h=200&c=7"},
+        { name: "Prada", logo: "https://logosmarcas.net/wp-content/uploads/2020/05/Prada-Logo.png"},
+        { name: "Hermès", logo: "https://logos-world.net/wp-content/uploads/2020/12/Hermes-Logo.png"},
+        { name: "Ralph Lauren", logo: "https://tse3.mm.bing.net/th?id=OIP.J6YUexRdCcK-I-cHrX3QzAHaEK&w=200&h=112&c=7"},
+        { name: "Montblanc", logo: "https://logos-world.net/wp-content/uploads/2022/09/Montblanc-Emblem.png"},
+        { name: "Tumi", logo: "https://logo-all.ru/uploads/posts/2018-11/0_tumi_logo.jpg"},
+        { name: "Coach", logo: "https://logowik.com/content/uploads/images/coach2854.jpg"},
+        { name: "Hidesign", logo: "https://cdn.shopify.com/s/files/1/0416/3049/8971/files/Hidesign_logo-svg_0ca39a53-a205-493a-979f-3aa899307479.png?v=1625045539"},
+        { name: "Baggit", logo: "https://th.bing.com/th/id/R.bae805aebeef8a3dd223dab75d1e07a9?rik=u8R8MkiHPsUT3A&riu=http%3a%2f%2fbusiness.mapsofindia.com%2ftop-brands-india%2fimages%2fBAGGIT.jpg&ehk=6h7KPlBmlDxODeAYN61FXl%2fxTaTYFTSjrmcOBQZY%2bs8%3d&risl=&pid=ImgRaw&r=0"}
     ],
 
     Face_Cream: [
-        { name: "Olay", logo: ""},
-        { name: "Estée Lauder", logo: ""},
-        { name: "Nivea", logo: ""},
-        { name: "L'Oréal", logo: ""},
-        { name: "Clinique", logo: ""},
-        { name: "Lotus Herbals", logo: ""},
-        { name: "Neutrogena", logo: ""},
-        { name: "La Mer", logo: ""},
-        { name: "Biotique", logo: ""},
-        { name: "Shiseido", logo: ""}
+        { name: "Olay", logo: "https://logos-world.net/wp-content/uploads/2020/11/Olay-Logo-2000-2006-700x394.png"},
+        { name: "Estée Lauder", logo: "https://logos-world.net/wp-content/uploads/2020/12/Estee-Lauder-Logo.png"},
+        { name: "Nivea", logo: "https://logodownload.org/wp-content/uploads/2017/03/nivea-logo-1-1.png"},
+        { name: "L'Oréal", logo: "https://loghi-famosi.com/wp-content/uploads/2020/04/Loreal-Emblema.png"},
+        { name: "Clinique", logo: "https://logos-world.net/wp-content/uploads/2020/12/Clinique-Emblem-700x394.png"},
+        { name: "Lotus Herbals", logo: "https://images.yourstory.com/cs/images/companies/aZ0dt34L400x400-1635747084195.jpg?fm=auto&ar=1:1&mode=fill&fill=solid&fill-color=fff"},
+        { name: "Neutrogena", logo: "https://brandslogos.com/wp-content/uploads/images/large/neutrogena-logo-1.png"},
+        { name: "La Mer", logo: "https://pic.nximg.cn/file/20201116/29810696_183653676189_2.jpg"},
+        { name: "Biotique", logo: "https://m.media-amazon.com/images/S/aplus-media/sota/7a5e354e-c525-47dc-bf05-8f6b8b10c204.__CR0,0,300,300_PT0_SX300_V1___.jpeg"},
+        { name: "Shiseido", logo: "https://www.logolynx.com/images/logolynx/f4/f478fb9aa74ad2166555e96f24cb78d5.png"}
     ],
 
     Lipstick: [
-        { name: "MAC", logo: ""},
-        { name: "Maybelline", logo: ""},
-        { name: "Chanel", logo: ""},
-        { name: "NARS", logo: ""},
-        { name: "Lakmé", logo: ""},
-        { name: "Yves Saint Laurent", logo: ""},
-        { name: "Dior", logo: ""},
-        { name: "Fenty Beauty", logo: ""},
-        { name: "Biotique", logo: ""},
-        { name: "Charlotte Tilbury", logo: ""}
+        { name: "MAC", logo: "https://th.bing.com/th/id/OIP.bXwj0c-4hLuUQxbtyDXUeQHaHa?w=820&h=820&rs=1&pid=ImgDetMain"},
+        { name: "Maybelline", logo: "https://th.bing.com/th/id/OIP.9H_G4REaJe2nj7Jv4HIHjAHaEo?rs=1&pid=ImgDetMain"},
+        { name: "Chanel", logo: "https://logos-world.net/wp-content/uploads/2020/04/Chanel-Logo.png"},
+        { name: "NARS", logo: "https://logodix.com/logo/917766.jpg"},
+        { name: "Lakmé", logo: "https://logos-world.net/wp-content/uploads/2020/09/Lakme-Logo-1996-2011-700x394.png"},
+        { name: "Yves Saint Laurent", logo: "https://th.bing.com/th/id/OIP.CHc5nVZGT9bBopA3xh4thQHaEK?rs=1&pid=ImgDetMain"},
+        { name: "Dior", logo: "https://paidpost-assets.nyt.com/paidpost/100000006251890/images/dior-logo.png"},
+        { name: "Fenty Beauty", logo: "https://seeklogo.com/images/F/fenty-beauty-logo-DCB5523E0D-seeklogo.com.png"},
+        { name: "Biotique", logo: "https://m.media-amazon.com/images/S/aplus-media/sota/7a5e354e-c525-47dc-bf05-8f6b8b10c204.__CR0,0,300,300_PT0_SX300_V1___.jpeg"},
+        { name: "Charlotte Tilbury", logo: "https://cdn.lovesavingsgroup.com/logos/charlotte-tilbury.jpg"}
     ],
 
     Shampoo: [
-        { name: "Head & Shoulders", logo: ""},
-        { name: "Pantene", logo: ""},
-        { name: "L'Oréal", logo: ""},
-        { name: "Dove", logo: ""},
-        { name: "Biotique", logo: ""},
-        { name: "Aveda", logo: ""},
-        { name: "TRESemmé", logo: ""},
-        { name: "Herbal Essences", logo: ""},
-        { name: "Dabur", logo: ""},
-        { name: "Moroccanoil", logo: ""}
+        { name: "Head & Shoulders", logo: "https://logos-download.com/wp-content/uploads/2019/01/Head__Shoulders_Logo.png"},
+        { name: "Pantene", logo: "https://panteneforyou.yolasite.com/resources/Pantene_Logo.jpg?timestamp=1525029403010"},
+        { name: "L'Oréal", logo: "https://loghi-famosi.com/wp-content/uploads/2020/04/Loreal-Emblema.png"},
+        { name: "Dove", logo: "https://logos-world.net/wp-content/uploads/2020/09/Dove-Symbol-700x394.png"},
+        { name: "Biotique", logo: "https://m.media-amazon.com/images/S/aplus-media/sota/7a5e354e-c525-47dc-bf05-8f6b8b10c204.__CR0,0,300,300_PT0_SX300_V1___.jpeg"},
+        { name: "Aveda", logo: "https://logos-world.net/wp-content/uploads/2020/11/Aveda-Logo.png"},
+        { name: "TRESemmé", logo: "https://logospng.org/download/tresemme/tresemme-4096.png"},
+        { name: "Herbal Essences", logo: "https://logos-world.net/wp-content/uploads/2020/09/Herbal-Essences-Logo.png"},
+        { name: "Dabur", logo: "https://logonoid.com/images/dabur-logo.png"},
+        { name: "Moroccanoil", logo: "https://logos-world.net/wp-content/uploads/2020/11/Moroccanoil-Logo.png"}
     ],
 
     Perfume: [
-        { name: "Chanel", logo: ""},
-        { name: "Dior", logo: ""},
-        { name: "Gucci", logo: ""},
-        { name: "Tom Ford", logo: ""},
-        { name: "Yves Saint Laurent", logo: ""},
-        { name: "Forest Essentials", logo: ""},
-        { name: "Creed", logo: ""},
-        { name: "Hermès", logo: ""},
-        { name: "Nishane", logo: ""},
-        { name: "Jo Malone", logo: ""}
+        { name: "Chanel", logo: "https://logos-world.net/wp-content/uploads/2020/04/Chanel-Logo.png"},
+        { name: "Dior", logo: "https://paidpost-assets.nyt.com/paidpost/100000006251890/images/dior-logo.png"},
+        { name: "Gucci", logo: "https://tse1.mm.bing.net/th?id=OIP.RH0M45IErwpiptUWO9e-cgHaHa&w=200&h=200&c=7"},
+        { name: "Tom Ford", logo: "https://th.bing.com/th/id/OIP.WD7E07yuOnkNC1OuEcT0QgHaHa?rs=1&pid=ImgDetMain"},
+        { name: "Yves Saint Laurent", logo: "https://th.bing.com/th/id/OIP.CHc5nVZGT9bBopA3xh4thQHaEK?rs=1&pid=ImgDetMain"},
+        { name: "Forest Essentials", logo: "https://logos-world.net/wp-content/uploads/2022/11/Forest-Essentials-Logo.png"},
+        { name: "Creed", logo: "https://i.pinimg.com/originals/2d/e4/d9/2de4d9d0bbd2fee0c85b2955dd04aa5d.jpg"},
+        { name: "Hermès", logo: "https://logos-world.net/wp-content/uploads/2020/12/Hermes-Logo.png"},
+        { name: "Nishane", logo: "https://th.bing.com/th/id/OIP.zlHkkTAuIOiGvXImWJBhGAHaHa?rs=1&pid=ImgDetMain"},
+        { name: "Jo Malone", logo: "https://www.panorama.lt/assets/Uploads/Shops/JO_MALONE_logo__CompressedW10.jpg"}
     ],
 
     Nail_Polish: [
-        { name: "OPI", logo: ""},
-        { name: "Essie", logo: ""},
-        { name: "Sally Hansen", logo: ""},
-        { name: "Chanel", logo: ""},
-        { name: "Zoya", logo: ""},
-        { name: "China Glaze", logo: ""},
-        { name: "Lakmé", logo: ""},
-        { name: "Dior", logo: ""},
-        { name: "Colorbar", logo: ""},
-        { name: "Lancome", logo: ""}
+        { name: "OPI", logo: "https://static.vecteezy.com/system/resources/previews/010/116/272/original/opi-letter-technology-logo-design-on-white-background-opi-creative-initials-letter-it-logo-concept-opi-letter-design-vector.jpg"},
+        { name: "Essie", logo: "https://logo-marque.com/wp-content/uploads/2020/09/Essie-Logo.png"},
+        { name: "Sally Hansen", logo: "https://logodix.com/logo/533466.png"},
+        { name: "Chanel", logo: "https://logos-world.net/wp-content/uploads/2020/04/Chanel-Logo.png"},
+        { name: "Zoya", logo: "https://3.bp.blogspot.com/-ElvP6pC092I/XEGMZN0qZjI/AAAAAAAARos/sCsqlGEKjbk0400d1QWn1yMCzIo69sOBwCLcBGAs/s1600/Zoya.png"},
+        { name: "China Glaze", logo: "https://i.pinimg.com/originals/c4/e6/f9/c4e6f9e9098108edde195fa40e341f60.png"},
+        { name: "Lakmé", logo: "https://logos-world.net/wp-content/uploads/2020/09/Lakme-Logo-1996-2011-700x394.png"},
+        { name: "Dior", logo: "https://paidpost-assets.nyt.com/paidpost/100000006251890/images/dior-logo.png"},
+        { name: "Colorbar", logo: "https://thecolorbar217.com/wp-content/uploads/2022/12/ColorBar-Logo-Black.png"},
+        { name: "Lancome", logo: "https://th.bing.com/th/id/R.63496dd09b4893108a5a3b9d10519c85?rik=%2bW4eVIJ22a%2btfw&riu=http%3a%2f%2fwww.logotypes101.com%2flogos%2f367%2f3AF8CFCE2FC9F24AC038687EE0C1E2FC%2fLancome.png&ehk=dJz0g0WgxqxjiNMgxokuyQYYdm4iyz9n22Bi6OfaoLI%3d&risl=&pid=ImgRaw&r=0"}
     ],
 
     Moisturizer: [
-        { name: "Neutrogena", logo: ""},
-        { name: "Cetaphi", logo: ""},
-        { name: "Clinique", logo: ""},
-        { name: "Eucerin", logo: ""},
-        { name: "Himalaya", logo: ""},
-        { name: "Olay", logo: ""},
-        { name: "La Mer", logo: ""},
-        { name: "Nivea", logo: ""},
-        { name: "Kiehl's", logo: ""},
-        { name: "Vichy", logo: ""}
+        { name: "Neutrogena", logo: "https://brandslogos.com/wp-content/uploads/images/large/neutrogena-logo-1.png"},
+        { name: "Cetaphi", logo: "https://www.cetaphil.ca/on/demandware.static/Sites-Galderma-CA-Site/-/default/dw00cae7f5/images/logo.png"},
+        { name: "Clinique", logo: "https://logos-world.net/wp-content/uploads/2020/12/Clinique-Emblem-700x394.png"},
+        { name: "Eucerin", logo: "https://brandslogos.com/wp-content/uploads/images/large/eucerin-logo.png"},
+        { name: "Himalaya", logo: "https://www.liblogo.com/img-logo/hi8329h185-himalaya-logo-himalaya-herbals-logos-gifs-find-amp-share-on-.png"},
+        { name: "Olay", logo: "https://logos-world.net/wp-content/uploads/2020/11/Olay-Logo-2000-2006-700x394.png"},
+        { name: "La Mer", logo: "https://pic.nximg.cn/file/20201116/29810696_183653676189_2.jpg"},
+        { name: "Nivea", logo: "https://logodownload.org/wp-content/uploads/2017/03/nivea-logo-1-1.png"},
+        { name: "Kiehl's", logo: "https://cdn.freebiesupply.com/logos/large/2x/kiehls-logo-png-transparent.png"},
+        { name: "Vichy", logo: "https://seeklogo.com/images/P/Pastilles_Vichy_source-logo-B97CDC7E63-seeklogo.com.gif +"}
     ],
 
     Sofa: [
@@ -596,7 +596,6 @@ function showmore(productName) {
             companyDiv.innerHTML = `
                 <img src="${company.logo}" alt="${company.name} Logo">
                  <p style="font-size: 18px; font-weight: bold; color: red;">${company.name}</p>
-                <button onclick="window.open('${company.link}', '_blank')">Visit</button>
             `;
             companiesList.appendChild(companyDiv);
         });
