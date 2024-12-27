@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="product.css">
+  <title>Products</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/images.png" alt="ShopNow Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <form>
+                        <input type="search" placeholder="Search" onkeyup="searchProducts(this.value)" style=" font-size: 15px; padding: 5px;">
+                    </form>
+                </li>
+            </ul>
+            <div class="cart-icon">
+                <a href="#cart" onclick="goToCart()">&#x1F6D2;</a>
+            </div>
+        </nav>
+    </header>
+
+  <section id="models-container" class="models-container">
+
+    <div id="top-3" class="category">
+      <h2>Top Models</h2>
+      <div class="model-list"></div>
+    </div>
+
+    <div id="middle-4" class="category">
+      <h2>Middle Models</h2>
+      <div class="model-list"></div>
+    </div>
+
+    <div id="low-3" class="category">
+      <h2>Low Models</h2>
+      <div class="model-list"></div>
+    </div>
+
+    <button id="previous-btn">Previous</button>
+
+  </section>
+
+  <script src="product.js"></script>
+</body>
+</html>

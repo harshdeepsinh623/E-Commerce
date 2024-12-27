@@ -117,7 +117,7 @@ document.querySelector('.contact-form').addEventListener('submit', function (eve
 const companyData = {
 
     Laptop: [
-        { name: "Dell", logo: "https://th.bing.com/th/id/OIP.Yvwe0PnQIDLi2eb2owiU6wHaHa?rs=1&pid=ImgDetMain", },
+        { name: "Dell", logo: "https://th.bing.com/th/id/OIP.Yvwe0PnQIDLi2eb2owiU6wHaHa?rs=1&pid=ImgDetMain" },
         { name: "HP", logo: "https://deltafonts.com/wp-content/uploads/HP-Logo.png" },
         { name: "Apple", logo: "https://th.bing.com/th/id/OIP._-PHuJMA9l7DqLNvDhH0RwHaHa?w=512&h=512&rs=1&pid=ImgDetMain" },
         { name: "Lenovo", logo: "https://th.bing.com/th/id/OIP.ZXRH1sQEKNwFSoOF1zUc0gHaFQ?rs=1&pid=ImgDetMain" },
@@ -288,7 +288,7 @@ const companyData = {
     Watch: [
         { name: "Titan", logo: "https://upload.wikimedia.org/wikipedia/commons/8/83/Titan_Company_Logo.png"},
         { name: "Rolex", logo: "https://wallpaperaccess.com/full/881446.jpg"},
-        { name: "Fossil", logo: "https://brandslogos.com/wp-content/uploads/images/large/fossil-logo-black-and-white.png"},
+        { name: "Fossil", logo: "https://th.bing.com/th/id/OIP.Xm3N2bsGpfsueKEl_YXKKQHaEd?rs=1&pid=ImgDetMain"},
         { name: "Helios", logo: "https://th.bing.com/th/id/OIP.ZjYeDb0KygImrC9BteaaaAHaHa?rs=1&pid=ImgDetMain"},
         { name: "Omega", logo: "https://th.bing.com/th/id/OIP.BkWgUR7bQvWhsoGbwcqEEAHaFj?rs=1&pid=ImgDetMain"},
         { name: "Panerai", logo: "https://th.bing.com/th/id/OIP.mR--kFmVpCanxdkWOu3IIwHaHa?rs=1&pid=ImgDetMain"},
@@ -357,7 +357,7 @@ const companyData = {
         { name: "L'Oréal", logo: "https://loghi-famosi.com/wp-content/uploads/2020/04/Loreal-Emblema.png"},
         { name: "Clinique", logo: "https://logos-world.net/wp-content/uploads/2020/12/Clinique-Emblem-700x394.png"},
         { name: "Lotus Herbals", logo: "https://images.yourstory.com/cs/images/companies/aZ0dt34L400x400-1635747084195.jpg?fm=auto&ar=1:1&mode=fill&fill=solid&fill-color=fff"},
-        { name: "Neutrogena", logo: "https://brandslogos.com/wp-content/uploads/images/large/neutrogena-logo-1.png"},
+        { name: "Neutrogena", logo: "https://download.logo.wine/logo/Neutrogena/Neutrogena-Logo.wine.png"},
         { name: "La Mer", logo: "https://pic.nximg.cn/file/20201116/29810696_183653676189_2.jpg"},
         { name: "Biotique", logo: "https://m.media-amazon.com/images/S/aplus-media/sota/7a5e354e-c525-47dc-bf05-8f6b8b10c204.__CR0,0,300,300_PT0_SX300_V1___.jpeg"},
         { name: "Shiseido", logo: "https://www.logolynx.com/images/logolynx/f4/f478fb9aa74ad2166555e96f24cb78d5.png"}
@@ -416,172 +416,172 @@ const companyData = {
     ],
 
     Moisturizer: [
-        { name: "Neutrogena", logo: "https://brandslogos.com/wp-content/uploads/images/large/neutrogena-logo-1.png"},
+        { name: "Neutrogena", logo: "https://download.logo.wine/logo/Neutrogena/Neutrogena-Logo.wine.png"},
         { name: "Cetaphi", logo: "https://www.cetaphil.ca/on/demandware.static/Sites-Galderma-CA-Site/-/default/dw00cae7f5/images/logo.png"},
         { name: "Clinique", logo: "https://logos-world.net/wp-content/uploads/2020/12/Clinique-Emblem-700x394.png"},
-        { name: "Eucerin", logo: "https://brandslogos.com/wp-content/uploads/images/large/eucerin-logo.png"},
+        { name: "Eucerin", logo: "https://th.bing.com/th/id/OIP.bf2r0vAGuAXbXGxBxsF9FwAAAA?rs=1&pid=ImgDetMain"},
         { name: "Himalaya", logo: "https://www.liblogo.com/img-logo/hi8329h185-himalaya-logo-himalaya-herbals-logos-gifs-find-amp-share-on-.png"},
         { name: "Olay", logo: "https://logos-world.net/wp-content/uploads/2020/11/Olay-Logo-2000-2006-700x394.png"},
         { name: "La Mer", logo: "https://pic.nximg.cn/file/20201116/29810696_183653676189_2.jpg"},
         { name: "Nivea", logo: "https://logodownload.org/wp-content/uploads/2017/03/nivea-logo-1-1.png"},
         { name: "Kiehl's", logo: "https://cdn.freebiesupply.com/logos/large/2x/kiehls-logo-png-transparent.png"},
-        { name: "Vichy", logo: "https://seeklogo.com/images/P/Pastilles_Vichy_source-logo-B97CDC7E63-seeklogo.com.gif +"}
+        { name: "Vichy", logo: "https://seeklogo.com/images/P/Pastilles_Vichy_source-logo-B97CDC7E63-seeklogo.com.gif"}
     ],
 
     Sofa: [
-        { name: "IKEA", logo: ""},
-        { name: "Ashley Furniture", logo: ""},
-        { name: "La-Z-Boy", logo: ""},
-        { name: "Herman Miller", logo: ""},
-        { name: "Urban Ladder", logo: ""},
-        { name: "Sofology", logo: ""},
-        { name: "Natuzzi", logo: ""},
-        { name: "Hometown", logo: ""},
-        { name: "Roche Bobois", logo: ""},
-        { name: "King Living", logo: ""}
+        { name: "IKEA", logo: "https://imageio.forbes.com/specials-images/imageserve/5ce31537169cc600076c5d61/0x0.jpg?format=jpg&crop=416,416,x0,y0,safe&height=416&width=416&fit=bounds"},
+        { name: "Ashley Furniture", logo: "https://th.bing.com/th/id/OIP.mFW6lv8PXBbkh8KX3-zkCwHaHa?rs=1&pid=ImgDetMain"},
+        { name: "La-Z-Boy", logo: "https://th.bing.com/th/id/R.bde73f4ff217e1200a1ce0f205dfa094?rik=fSsyJGOhwaDf0g&riu=http%3a%2f%2flogonoid.com%2fimages%2fla-z-boy-logo.png&ehk=OKnZ1laCiTzWL2wqu0vUbxJjXPsG5vHukcql6i94Dwo%3d&risl=&pid=ImgRaw&r=0"},
+        { name: "Herman Miller", logo: "https://th.bing.com/th/id/OIP.c7pD1oQ6u0N9QCLxrHl4HgAAAA?rs=1&pid=ImgDetMain"},
+        { name: "Urban Ladder", logo: "https://www.marketingmind.in/wp-content/uploads/2019/06/urban_ladder.jpg"},
+        { name: "Sofology", logo: "https://th.bing.com/th/id/R.41c60eadb8a56c3a5dadfde65e7da291?rik=yv2ErS49AKJpNA&riu=http%3a%2f%2fwww.kaleida.co.uk%2fapp%2fuploads%2f2016%2f07%2fsofology_logo.png&ehk=w1DJaj5FvOYqea9fBmEU%2bbTduU%2biCsUjsL94zTiNnN0%3d&risl=&pid=ImgRaw&r=0"},
+        { name: "Natuzzi", logo: "https://cdn.freebiesupply.com/logos/large/2x/natuzzi-1-logo-png-transparent.png"},
+        { name: "Hometown", logo: "https://img.freepik.com/premium-vector/hometown-logo_529259-68.jpg?w=2000"},
+        { name: "Roche Bobois", logo: "https://cdn.freebiesupply.com/logos/large/2x/roche-bobois-logo-png-transparent.png"},
+        { name: "King Living", logo: "https://www.hsbc.com.au/content/dam/hsbc/au/images/credit-cards/king-living-dcm-18429.jpg"}
     ],
 
     Coffee_Table: [
-        { name: "IKEA", logo: ""},
-        { name: "Herman Miller", logo: ""},
-        { name: "Natuzzi", logo: ""},
-        { name: "Roche Bobois", logo: ""},
-        { name: "King Living", logo: ""},
-        { name: "Sofology", logo: ""},
-        { name: "Urban Ladder", logo: ""},
-        { name: "Hometown", logo: ""},
-        { name: "Fabindia", logo: ""},
-        { name: "Nilkamal", logo: ""}
+        { name: "IKEA", logo: "https://imageio.forbes.com/specials-images/imageserve/5ce31537169cc600076c5d61/0x0.jpg?format=jpg&crop=416,416,x0,y0,safe&height=416&width=416&fit=bounds"},
+        { name: "Herman Miller", logo: "https://th.bing.com/th/id/OIP.c7pD1oQ6u0N9QCLxrHl4HgAAAA?rs=1&pid=ImgDetMain"},
+        { name: "Natuzzi", logo: "https://cdn.freebiesupply.com/logos/large/2x/natuzzi-1-logo-png-transparent.png"},
+        { name: "Roche Bobois", logo: "https://cdn.freebiesupply.com/logos/large/2x/roche-bobois-logo-png-transparent.png"},
+        { name: "King Living", logo: "https://www.hsbc.com.au/content/dam/hsbc/au/images/credit-cards/king-living-dcm-18429.jpg"},
+        { name: "Sofology", logo: "https://th.bing.com/th/id/R.41c60eadb8a56c3a5dadfde65e7da291?rik=yv2ErS49AKJpNA&riu=http%3a%2f%2fwww.kaleida.co.uk%2fapp%2fuploads%2f2016%2f07%2fsofology_logo.png&ehk=w1DJaj5FvOYqea9fBmEU%2bbTduU%2biCsUjsL94zTiNnN0%3d&risl=&pid=ImgRaw&r=0"},
+        { name: "Urban Ladder", logo: "https://www.marketingmind.in/wp-content/uploads/2019/06/urban_ladder.jpg"},
+        { name: "Hometown", logo: "https://img.freepik.com/premium-vector/hometown-logo_529259-68.jpg?w=2000"},
+        { name: "Fabindia", logo: "https://th.bing.com/th/id/OIP.uJNZdykNbqgmw_XN8EXUigHaHa?rs=1&pid=ImgDetMain"},
+        { name: "Nilkamal", logo: "https://i0.wp.com/capage.in/wp-content/uploads/2022/11/Nilkamal.png"}
     ],
 
-    Seating: [
-        { name: "IKEA", logo: ""},
-        { name: "Herman Miller", logo: ""},
-        { name: "La-Z-Boy", logo: ""},
-        { name: "Ashley Furniture", logo: ""},
-        { name: "Natuzzi", logo: ""},
-        { name: "Roche Bobois", logo: ""},
-        { name: "King Living", logo: ""},
-        { name: "Urban Ladder", logo: ""},
-        { name: "Nilkamal", logo: ""},
-        { name: "Fabindia", logo: ""}
+    Chair: [
+        { name: "IKEA", logo: "https://imageio.forbes.com/specials-images/imageserve/5ce31537169cc600076c5d61/0x0.jpg?format=jpg&crop=416,416,x0,y0,safe&height=416&width=416&fit=bounds"},
+        { name: "Herman Miller", logo: "https://th.bing.com/th/id/OIP.c7pD1oQ6u0N9QCLxrHl4HgAAAA?rs=1&pid=ImgDetMain"},
+        { name: "La-Z-Boy", logo: "https://th.bing.com/th/id/R.bde73f4ff217e1200a1ce0f205dfa094?rik=fSsyJGOhwaDf0g&riu=http%3a%2f%2flogonoid.com%2fimages%2fla-z-boy-logo.png&ehk=OKnZ1laCiTzWL2wqu0vUbxJjXPsG5vHukcql6i94Dwo%3d&risl=&pid=ImgRaw&r=0"},
+        { name: "Ashley Furniture", logo: "https://th.bing.com/th/id/OIP.mFW6lv8PXBbkh8KX3-zkCwHaHa?rs=1&pid=ImgDetMain"},
+        { name: "Natuzzi", logo: "https://cdn.freebiesupply.com/logos/large/2x/natuzzi-1-logo-png-transparent.png"},
+        { name: "Roche Bobois", logo: "https://cdn.freebiesupply.com/logos/large/2x/roche-bobois-logo-png-transparent.png"},
+        { name: "King Living", logo: "https://www.hsbc.com.au/content/dam/hsbc/au/images/credit-cards/king-living-dcm-18429.jpg"},
+        { name: "Urban Ladder", logo: "https://www.marketingmind.in/wp-content/uploads/2019/06/urban_ladder.jpg"},
+        { name: "Nilkamal", logo: "https://i0.wp.com/capage.in/wp-content/uploads/2022/11/Nilkamal.png"},
+        { name: "Fabindia", logo: "https://th.bing.com/th/id/OIP.uJNZdykNbqgmw_XN8EXUigHaHa?rs=1&pid=ImgDetMain"}
     ],
 
     Bookshelf: [
-        { name: "IKEA", logo: ""},
-        { name: "Wayfair", logo: ""},
-        { name: "Ashley Furniture", logo: ""},
-        { name: "Pottery Barn", logo: ""},
-        { name: "West Elm", logo: ""},
-        { name: "Urban Ladder", logo: ""},
-        { name: "CB2", logo: ""},
-        { name: "Macy’s", logo: ""},
-        { name: "Godrej Interio", logo: ""},
-        { name: "Habitat", logo: ""}
+        { name: "IKEA", logo: "https://imageio.forbes.com/specials-images/imageserve/5ce31537169cc600076c5d61/0x0.jpg?format=jpg&crop=416,416,x0,y0,safe&height=416&width=416&fit=bounds"},
+        { name: "Wayfair", logo: "https://th.bing.com/th/id/OIP.vNf8iJCcOkPxTDHJJzipPAAAAA?rs=1&pid=ImgDetMain"},
+        { name: "Ashley Furniture", logo: "https://th.bing.com/th/id/OIP.mFW6lv8PXBbkh8KX3-zkCwHaHa?rs=1&pid=ImgDetMain"},
+        { name: "Pottery Barn", logo: "https://i.pinimg.com/originals/0e/22/01/0e2201ff4b1ab7d8fdca30a38bbea2a4.png"},
+        { name: "West Elm", logo: "https://hydeparkvillage.com/wp-content/uploads/sites/8/2019/12/West-Elm_LOGO-1024x202.png"},
+        { name: "Urban Ladder", logo: "https://www.marketingmind.in/wp-content/uploads/2019/06/urban_ladder.jpg"},
+        { name: "CB2", logo: "https://logowik.com/content/uploads/images/cb21223.jpg"},
+        { name: "Macy’s", logo: "https://i.pinimg.com/originals/94/5b/f1/945bf18fef4fbb034acc8799ba0b3882.jpg"},
+        { name: "Godrej Interio", logo: "https://mma.prnewswire.com/media/772546/Godrej_Interio_Logo.jpg?p=facebook"},
+        { name: "Habitat", logo: "https://www.pwc.com.sa/wp-content/uploads/2018/12/abu-dawood-logo3.png"}
     ],
 
     Bed: [
-        { name: "IKEA", logo: "" },
-        { name: "Tempur-Pedic", logo: "" },
-        { name: "Sealy", logo: "" },
-        { name: "Serta", logo: "" },
-        { name: "Stearns & Foster", logo: "" },
-        { name: "Purple", logo: "" },
-        { name: "Saatva", logo: "" },
-        { name: "Kingsdown", logo: "" },
-        { name: "Sleepwell", logo: "" },
-        { name: "Wakefit", logo: "" }
+        { name: "IKEA", logo: "https://imageio.forbes.com/specials-images/imageserve/5ce31537169cc600076c5d61/0x0.jpg?format=jpg&crop=416,416,x0,y0,safe&height=416&width=416&fit=bounds" },
+        { name: "Tempur-Pedic", logo: "https://photos.prnewswire.com/prnfull/20160121/324806LOGO?max=800" },
+        { name: "Sealy", logo: "https://www.gilesagency.com/wp-content/uploads/2020/05/Sealy_logo_872x706.jpg" },
+        { name: "Serta", logo: "https://www.kindpng.com/picc/m/332-3324686_serta-mattress-logo-hd-png-download.png" },
+        { name: "Stearns & Foster", logo: "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/102014/stearnsfoster.png?itok=p3Xv2IcT" },
+        { name: "Purple", logo: "https://www.logolynx.com/images/logolynx/7b/7b140a659b281df8c7890076c7f4c962.jpeg" },
+        { name: "Saatva", logo: "https://logowik.com/content/uploads/images/saatva3594.jpg" },
+        { name: "Kingsdown", logo: "https://seeklogo.com/images/K/kingsdown-logo-DC00202B4C-seeklogo.com.png" },
+        { name: "Sleepwell", logo: "https://alrasub.com/wp-content/uploads/2022/12/Sleepwell-logo_1670847568.jpg" },
+        { name: "Wakefit", logo: "https://techstory.in/wp-content/uploads/2021/11/Wakefit.jpg" }
     ],
 
     Desk: [
-        { name: "IKEA", logo: ""},
-        { name: "Herman Miller", logo: "https://upload.wikimedia.org/wikipedia/commons/1/12/Herman_Miller_logo.svg" },
-        { name: "Steelcase", logo: "https://upload.wikimedia.org/wikipedia/commons/c/c6/Steelcase_logo.svg" },
-        { name: "Humanscale", logo: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Humanscale_logo.svg" },
-        { name: "La-Z-Boy", logo: "https://upload.wikimedia.org/wikipedia/commons/3/3a/La-Z-Boy_logo.svg" },
-        { name: "West Elm", logo: "https://upload.wikimedia.org/wikipedia/commons/e/ea/West_Elm_logo.svg" },
-        { name: "CB2", logo: "https://upload.wikimedia.org/wikipedia/commons/3/31/CB2_Logo.svg" },
-        { name: "Wayfair", logo: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Wayfair_logo.svg" },
-        { name: "Urban Ladder", logo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Urban_Ladder_logo.svg" },
-        { name: "Godrej Interio", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Godrej_Interio_Logo.png" }
+        { name: "IKEA", logo: "https://imageio.forbes.com/specials-images/imageserve/5ce31537169cc600076c5d61/0x0.jpg?format=jpg&crop=416,416,x0,y0,safe&height=416&width=416&fit=bounds"},
+        { name: "Herman Miller", logo: "https://th.bing.com/th/id/OIP.c7pD1oQ6u0N9QCLxrHl4HgAAAA?rs=1&pid=ImgDetMain" },
+        { name: "Steelcase", logo: "https://www.logolynx.com/images/logolynx/02/0268caa4fcfaace1888abe41733b7941.png" },
+        { name: "Humanscale", logo: "https://meinema.nl/assets/Logos/humanscale-logo.jpg" },
+        { name: "La-Z-Boy", logo: "https://th.bing.com/th/id/R.bde73f4ff217e1200a1ce0f205dfa094?rik=fSsyJGOhwaDf0g&riu=http%3a%2f%2flogonoid.com%2fimages%2fla-z-boy-logo.png&ehk=OKnZ1laCiTzWL2wqu0vUbxJjXPsG5vHukcql6i94Dwo%3d&risl=&pid=ImgRaw&r=0" },
+        { name: "West Elm", logo: "https://hydeparkvillage.com/wp-content/uploads/sites/8/2019/12/West-Elm_LOGO-1024x202.png" },
+        { name: "CB2", logo: "https://logowik.com/content/uploads/images/cb21223.jpg" },
+        { name: "Wayfair", logo: "https://th.bing.com/th/id/OIP.vNf8iJCcOkPxTDHJJzipPAAAAA?rs=1&pid=ImgDetMain" },
+        { name: "Urban Ladder", logo: "https://www.marketingmind.in/wp-content/uploads/2019/06/urban_ladder.jpg" },
+        { name: "Godrej Interio", logo: "https://mma.prnewswire.com/media/772546/Godrej_Interio_Logo.jpg?p=facebook" }
     ],
 
     Yoga_Mat: [
-        { name: "Liforme", logo: "https://upload.wikimedia.org/wikipedia/commons/0/09/Liforme_logo.png" },
-        { name: "Manduka", logo: "https://upload.wikimedia.org/wikipedia/commons/d/d1/Manduka_logo.svg" },
-        { name: "Gaiam", logo: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Gaiam_Logo.svg" },
-        { name: "PrAna", logo: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Prana_logo.svg" },
-        { name: "YogaAccessories", logo: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Yoga_Accessories_logo.png" },
-        { name: "Jade Yoga", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jade_Yoga_logo.png" },
-        { name: "Reebok", logo: "https://upload.wikimedia.org/wikipedia/commons/5/59/Reebok_Logo.png" },
-        { name: "Lululemon", logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/Lululemon_logo.svg" },
-        { name: "Arya Wellness", logo: "https://upload.wikimedia.org/wikipedia/commons/e/eb/Arya_Wellness_Logo.jpg" },
-        { name: "Vishwamitra Yoga", logo: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Vishwamitra_Yoga_Logo.png" }
+        { name: "Liforme", logo: "https://th.bing.com/th/id/OIP.BY8rEz0FtT6v7inuri_mgwAAAA?rs=1&pid=ImgDetMain" },
+        { name: "Manduka", logo: "https://th.bing.com/th/id/OIP.zxSAI7ycYJeZqL3LW4BglgHaHa?rs=1&pid=ImgDetMain" },
+        { name: "Gaiam", logo: "https://cdn.shopify.com/s/files/1/1728/2157/products/Gaiam_Logo_V_PMS361_2015_4_10d92337-6704-4487-8dcf-ddd2a578d11f.jpg?v=1552689954" },
+        { name: "PrAna", logo: "https://dcassetcdn.com/design_img/3866991/563014/24758068/dj39n0c4pdckyq7qnspmyrp9b0_image.jpg" },
+        { name: "YogaAccessories", logo: "https://img.freepik.com/free-vector/yoga-template-logo-design-minimalist-zen-logo-style_7518-305.jpg?w=2000" },
+        { name: "Jade Yoga", logo: "https://www.logoai.com/uploads/output/2022/05/24/48099d2a188c62e8833641e880f5eb2f.jpg?t=1653376400" },
+        { name: "Reebok", logo: "https://logodownload.org/wp-content/uploads/2017/06/reebok-logo-0-2048x2048.png" },
+        { name: "Lululemon", logo: "https://logos-world.net/wp-content/uploads/2020/09/Lululemon-Symbol.png" },
+        { name: "Arya Wellness", logo: "https://img1.wsimg.com/isteam/ip/59d3a91a-7f9e-4f1f-b461-e584011ec4e4/blob-0008.png/:/" },
+        { name: "Vishwamitra Yoga", logo: "https://s.tmimgcdn.com/scr/800x500/304100/yoga-logo-and-lotus-flower-logo-template_304164-original.jpg" }
     ],
 
     Dumbbells_Set: [
-        { name: "Bowflex", logo: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Bowflex_logo.svg" },
-        { name: "PowerBlock", logo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/PowerBlock_logo.png" },
-        { name: "Titan Fitness", logo: "https://upload.wikimedia.org/wikipedia/commons/a/ac/Titan_Fitness_logo.svg" },
-        { name: "ProForm", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e6/ProForm_Fitness_logo.svg" },
-        { name: "XMark", logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/Xmark_Fitness_logo.png" },
-        { name: "Rogue Fitness", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Rogue_Fitness_logo.png" },
-        { name: "Yes4All", logo: "https://upload.wikimedia.org/wikipedia/commons/7/71/Yes4All_logo.png" },
-        { name: "Olympic", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Olympic_fitness_logo.png" },
-        { name: "KheloMore", logo: "https://upload.wikimedia.org/wikipedia/commons/7/74/KheloMore_logo.png" },
-        { name: "Boldfit", logo: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Boldfit_Logo.png" }
+        { name: "Bowflex", logo: "https://iconape.com/wp-content/png_logo_vector/bowflex-logo.png" },
+        { name: "PowerBlock", logo: "https://www.fitnessgallery.com/wp-content/uploads/2017/03/Powerblock-fitness-logo-350px.png" },
+        { name: "Titan Fitness", logo: "https://mma.prnewswire.com/media/1393591/Titan_Fitness_Logo.jpg?p=facebook" },
+        { name: "ProForm", logo: "https://www.defitnessshop.nl/images/brands/proform-logo.png" },
+        { name: "XMark", logo: "https://th.bing.com/th/id/R.5a7507d53f6246c14096a4626704c286?rik=SE1xG88E0a5kRg&riu=http%3a%2f%2fxmarkfitness.com%2fcdn%2fshop%2ffiles%2fNew_-Logo-NO_BG-01.png%3fheight%3d628%26pad_color%3dfff%26v%3d1674222127%26width%3d1200&ehk=Iyfq8Nk1XqZDpC1ACoFXc02FurVNGr5uOYZN%2b48ENUI%3d&risl=&pid=ImgRaw&r=0" },
+        { name: "Rogue Fitness", logo: "https://tukuz.com/wp-content/uploads/2020/10/rogue-fitness-logo-vector.png" },
+        { name: "Yes4All", logo: "https://th.bing.com/th/id/OIP.GziWfB5--Jm6rQIG5L8zagHaHa?rs=1&pid=ImgDetMain" },
+        { name: "Bells of Steel", logo: "https://b-solutions.io/wp-content/uploads/2022/05/bos-1.png" },
+        { name: "KheloMore", logo: "https://mssa.khelomore.com/assets/img/khelomore.png" },
+        { name: "Boldfit", logo: "https://cdn.shopify.com/s/files/1/0096/4621/1123/files/boldfit-logo.png?v=1607770441" }
     ],
 
     Bicycle: [
-        { name: "Trek", logo: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Trek_Bicycle_Company_logo.svg" },
-        { name: "Specialized", logo: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Specialized_Logo.svg" },
-        { name: "Cannondale", logo: "https://upload.wikimedia.org/wikipedia/commons/3/32/Cannondale_logo.svg" },
-        { name: "Giant", logo: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Giant_Bicycles_logo.svg" },
-        { name: "Bianchi", logo: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Bianchi_logo_2016.svg" },
-        { name: "Schwinn", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Schwinn_logo.svg" },
-        { name: "Santa Cruz", logo: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Santa_Cruz_Bicycles_logo.svg" },
-        { name: "Merida", logo: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Merida_Bike_logo.svg" },
-        { name: "Hercules", logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/Hercules_logo.png" },
-        { name: "Atlas", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Atlas_logo.png" }
+        { name: "Trek", logo: "https://vignette.wikia.nocookie.net/logopedia/images/3/3c/Trek_logo.jpg/revision/latest?cb=20151024131115" },
+        { name: "Specialized", logo: "https://th.bing.com/th/id/R.c536d5eb889e28e9181691c38504914b?rik=Q%2fYPUzE31h2qyg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-Z3B_2ZLc7P8%2fVVimwCOzXOI%2fAAAAAAAACbA%2fyb9ceVO3Em8%2fs1600%2fSpecialized-logo-vector.png&ehk=TCpncBwVxBLf78%2bAGBm2qQF2oonuCrWdJFko5SyDWdo%3d&risl=&pid=ImgRaw&r=0" },
+        { name: "Cannondale", logo: "https://logos-world.net/wp-content/uploads/2022/06/Cannondale-Symbol.png" },
+        { name: "Giant", logo: "https://logodix.com/logo/2094071.jpg" },
+        { name: "Bianchi", logo: "https://listcarbrands.com/wp-content/uploads/2022/12/Bianchi-Logo-1940.png" },
+        { name: "Schwinn", logo: "https://logos-world.net/wp-content/uploads/2022/02/Schwinn-New-Logo.png" },
+        { name: "Santa Cruz", logo: "https://logos-world.net/wp-content/uploads/2021/10/Santa-Cruz-Skateboards-Logo.png" },
+        { name: "Merida", logo: "https://th.bing.com/th/id/R.848985fe458f4f15d01e18c0058b2896?rik=0o51sMMZ5nDyMg&riu=http%3a%2f%2flogotypes101.com%2flogos%2f36%2f902E82FAF37E60FE403F91205CF03D50%2fmerida_bike.png&ehk=HNujgnaIgiijHz8HN8JamdrfHU8Kjadt9rBHJqiCFW0%3d&risl=&pid=ImgRaw&r=0" },
+        { name: "Hercules", logo: "https://cdn.dribbble.com/users/1078431/screenshots/11002964/media/e1f51168c998157c77ced4b6e24e54d5.jpg" },
+        { name: "Atlas", logo: "https://static.vecteezy.com/system/resources/previews/009/107/934/original/atlas-logo-free-vector.jpg" }
     ],
 
     Home_Gym_Set: [
-        { name: "Bowflex", logo: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Bowflex_logo.svg" },
-        { name: "Weider", logo: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Weider_logo.svg" },
-        { name: "Nautilus", logo: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Nautilus_Inc_logo.svg" },
-        { name: "Rogue Fitness", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Rogue_Fitness_logo.png" },
-        { name: "PowerBlock", logo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/PowerBlock_logo.png" },
-        { name: "Marcy", logo: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Marcy_logo.png" },
-        { name: "Life Fitness", logo: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Life_Fitness_logo.png" },
-        { name: "ProForm", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e6/ProForm_Fitness_logo.svg" },
-        { name: "Kobo Fitness", logo: "https://upload.wikimedia.org/wikipedia/commons/2/29/Kobo_Fitness_logo.png" },
-        { name: "Fitkit", logo: "https://upload.wikimedia.org/wikipedia/commons/7/70/Fitkit_logo.png" }
+        { name: "Bowflex", logo: "https://iconape.com/wp-content/png_logo_vector/bowflex-logo.png" },
+        { name: "Weider", logo: "https://cdn.freebiesupply.com/logos/thumbs/2x/weider-2-logo.png" },
+        { name: "Nautilus", logo: "https://iconape.com/wp-content/png_logo_vector/nautilus-logo.png" },
+        { name: "Rogue Fitness", logo: "https://tukuz.com/wp-content/uploads/2020/10/rogue-fitness-logo-vector.png" },
+        { name: "PowerBlock", logo: "https://www.fitnessgallery.com/wp-content/uploads/2017/03/Powerblock-fitness-logo-350px.png" },
+        { name: "Marcy", logo: "https://www.jayshomegym.com/wp-content/uploads/2018/03/marcy-logo.png" },
+        { name: "Life Fitness", logo: "https://th.bing.com/th/id/R.11c20e24042d0a2f83533f8527082731?rik=VBe9e5E5vWhnyQ&riu=http%3a%2f%2fwww.gepacv.org%2fwp-content%2fuploads%2f2017%2f04%2flife-fitness-logo.jpg&ehk=pM%2b%2fLXhmVr%2fWLYLrFrp04nfwQLfrNRWlFYU6JxkvVpw%3d&risl=&pid=ImgRaw&r=0" },
+        { name: "ProForm", logo: "https://www.defitnessshop.nl/images/brands/proform-logo.png" },
+        { name: "Kobo Fitness", logo: "https://logos-world.net/wp-content/uploads/2022/12/Kobo-Logo-2010-500x281.png" },
+        { name: "Fitkit", logo: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/6cdbbc89172259.5decfad144096.jpg" }
     ],
 
     Surfboard: [
-        { name: "Channel Islands", logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Channel_Islands_logo.png" },
-        { name: "Lost Surfboards", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Lost_Surfboards_logo.png" },
-        { name: "Rip Curl", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Rip_Curl_logo.png" },
-        { name: "Billabong", logo: "https://upload.wikimedia.org/wikipedia/commons/6/68/Billabong_logo.png" },
-        { name: "JS Industries", logo: "https://upload.wikimedia.org/wikipedia/commons/e/ea/JS_Industries_logo.png" },
-        { name: "Surftech", logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/Surftech_logo.png" },
-        { name: "Fletcher Chouinard Designs", logo: "https://upload.wikimedia.org/wikipedia/commons/7/77/Fletcher_Chouinard_Designs_logo.png" },
-        { name: "Rusty", logo: "https://upload.wikimedia.org/wikipedia/commons/4/49/Rusty_logo.svg" },
-        { name: "Soul Surf India", logo: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Soul_Surf_India_logo.png" },
-        { name: "Nasa Surfboards", logo: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Nasa_Surfboards_logo.png" }
+        { name: "Channel Islands", logo: "https://cdn.shopify.com/s/files/1/0010/2003/5131/files/channel_islands_surfboards.png?v=1613533241" },
+        { name: "Lost Surfboards", logo: "https://www.pngkit.com/png/detail/133-1335288_related-keywords-suggestions-for-lost-surfboards-lost-surfboards.png" },
+        { name: "Rip Curl", logo: "https://logodownload.org/wp-content/uploads/2014/10/rip-curl-logo-0.png" },
+        { name: "Billabong", logo: "https://logodownload.org/wp-content/uploads/2014/08/billabong-logo-0.png" },
+        { name: "JS Industries", logo: "https://th.bing.com/th/id/OIP.uhpDA3E9R0aIQsECZg5_CwHaHa?rs=1&pid=ImgDetMain" },
+        { name: "Surftech", logo: "https://shop-eat-surf.com/wp-content/uploads/2021/01/surftech-logo-resized.jpg" },
+        { name: "Fletcher Chouinard Designs", logo: "https://www.alfajango.com/assets/logos/chouinard_logo-4300c0adfac1acab226aee3bfd32b1251cfcc2cdb0f160ff24348703189d697d.png" },
+        { name: "Rusty", logo: "https://www.liblogo.com/img-logo/ru7502r6b8-rusty-logo-rusty-logo-sbia.png" },
+        { name: "Soul Surf India", logo: "https://i.pinimg.com/originals/97/75/a9/9775a98e6a162d984f4f19b366f8e416.jpg" },
+        { name: "Temple Surfboards", logo: "https://4.imimg.com/data4/XA/CE/MY-8699007/temple_logo.jpg" }
     ],
 
     Kayak: [
-        { name: "Old Town", logo: "https://upload.wikimedia.org/wikipedia/commons/3/36/OldTown_Kayaks_logo.png" },
-        { name: "Wilderness Systems", logo: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Wilderness_Systems_logo.svg" },
-        { name: "Perception", logo: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Perception_Kayaks_logo.png" },
-        { name: "Necky Kayaks", logo: "https://upload.wikimedia.org/wikipedia/commons/1/12/Necky_Kayaks_logo.png" },
-        { name: "Jackson Kayak", logo: "https://upload.wikimedia.org/wikipedia/commons/0/06/Jackson_Kayak_logo.png" },
-        { name: "Dagger", logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/Dagger_Kayak_logo.png" },
-        { name: "Sevylor", logo: "https://upload.wikimedia.org/wikipedia/commons/6/69/Sevylor_logo.svg" },
-        { name: "Vibe Kayaks", logo: "https://upload.wikimedia.org/wikipedia/commons/3/39/Vibe_Kayaks_logo.png" },
-        { name: "Dalu Kayaks", logo: "https://upload.wikimedia.org/wikipedia/commons/3/32/Dalu_Kayaks_logo.png" },
-        { name: "Milehigh Kayaks", logo: "https://upload.wikimedia.org/wikipedia/commons/e/eb/Milehigh_Kayaks_logo.png" }
+        { name: "Old Town", logo: "https://cdn.dribbble.com/users/107416/screenshots/4147291/oldtown_logo.png" },
+        { name: "Wilderness Systems", logo: "https://www.travelcountry.com/images_vendor/logo-wilderness-systems.png" },
+        { name: "Perception", logo: "https://seeklogo.com/images/P/perception-logo-C87E8AD585-seeklogo.com.png" },
+        { name: "Necky Kayaks", logo: "https://th.bing.com/th/id/OIP.gv6aEXJo56jK2Y3ASaEjuwAAAA?rs=1&pid=ImgDetMain" },
+        { name: "Jackson Kayak", logo: "https://www.acekayaking.com/wp-content/uploads/2017/04/jacksonlogo.png" },
+        { name: "Dagger", logo: "https://www.creativefabrica.com/wp-content/uploads/2023/02/17/D-for-Dagger-Logo-Design-Vector-Graphics-61505677-1.jpg" },
+        { name: "Sevylor", logo: "https://www.kindermaxx.de/media/image/0b/07/01/sevylor-logo.jpg" },
+        { name: "Vibe Kayaks", logo: "https://www.pinclipart.com/picdir/middle/184-1840585_since-2013-vibe-has-focused-on-one-thing.png" },
+        { name: "Dalu Kayaks", logo: "https://mir-s3-cdn-cf.behance.net/project_modules/1400/b0e8e696131593.5ea78adae5d68.png" },
+        { name: "Yolo Kayaks", logo: "https://th.bing.com/th/id/OIP.rKAfWP9nO03YHxv0aSlFcwAAAA?rs=1&pid=ImgDetMain" }
     ],
 };
 
@@ -594,8 +594,11 @@ function showmore(productName) {
         companyData[productName].forEach(company => {
             const companyDiv = document.createElement("div");
             companyDiv.innerHTML = `
-                <img src="${company.logo}" alt="${company.name} Logo">
-                 <p style="font-size: 18px; font-weight: bold; color: red;">${company.name}</p>
+            <a href="product.html?company=Dell">
+            <img src="${company.logo}" alt="${company.name} Logo" style="cursor: pointer;"></a>
+            </a>
+            <p style="font-size: 20px; font-weight: bold; color: blue; text-align: center; margin-top: 20px;"> ${company.name}
+            </p>
             `;
             companiesList.appendChild(companyDiv);
         });
